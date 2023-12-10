@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url("../Img/cclex.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+   
+}
+.cordova , .catarman , .bangbang , .dapitan , .alegria{
+   float:right;
+}
+.ibabao , .buagsong , .cogon , .sanmiguel , .gilutungan{
+    float:left
+}
+
+p{
+    font-size: 25px;
+    color:white;
+    
+}
+img{
+    width: 150px;
+    height: 200px;
+    border-radius:15px;
+    
+}
+.text{
+    padding:10px
+    margin:5px
+} 
+    .container {
+    max-width:100;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding-top:10px;
+    padding:5px 30px;
+}
