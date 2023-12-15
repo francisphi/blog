@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/react_10k.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blog</title>
+</head>
+<body>
+<div class="contianer mt-5">
+<div class="box">
+<iframe width="560" height="600" src="https://www.youtube.com/embed/K4Z1XJrmGg4?si=YA1zaEjR-b8Pc4J-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div class="container">
+      			<div class="emoji">
+      				<div class="hello">
+      					<img src="emoji/like.gif" class="e" onclick="like()">
+      					<p>Like</p>
+      				</div>
+      				<div class="hello">
+      					<img src="emoji/heart.gif" class="e" onclick="love()">
+      					<p>Love</p>
+      				</div>
+      				<div class="hello">
+      					<img src="emoji/haha.gif" class="e" onclick="haha()">
+      					<p>Haha</p>
+      				</div>
+      				<div class="hello">
+      					<img src="emoji/wow.gif" class="e" onclick="wow()">
+      					<p>Wow</p>
+      				</div>
+      				<div class="hello">
+      					<img src="emoji/sad.gif" class="e" onclick="sad()">
+      					<p>Sad</p>
+      				</div>
+      				<div class="hello">
+      					<img src="emoji/angry.gif" class="e" onclick="angry()">
+      					<p>Angry</p>
+      				</div>
+
+      			</div>
+      			<a href="#button" class="btn" id="button">React</a>
+      		</div>
+      	</div>
+</div>
+</div>
+      	<script>
+      	    let result=document.getElementById("button");
+      		
+      		
+           	function like(){
+
+           		if(result.innerHTML=== '<img src="emoji/like.gif">'){
+      		 result.innerHTML = "React";
+      		}
+      		else {
+      			result.innerHTML='<img src="emoji/like.gif">';
+      		}
+      		}
+      		function love(){
+      			if(result.innerHTML=== '<img src="emoji/heart.gif">'){
+      		 result.innerHTML = "React";
+      		}
+      		else {
+      			result.innerHTML= '<img src="emoji/heart.gif">';
+      		}
+      		}
+      		function haha(){
+      			if(result.innerHTML=== '<img src="emoji/haha.gif">'){
+      		 result.innerHTML = "React";
+      		}
+      		else {
+      			result.innerHTML= '<img src="emoji/haha.gif">';
+      		}
+      		}
+      		function wow(){
+      				if(result.innerHTML=== '<img src="emoji/wow.gif">'){
+      		 result.innerHTML = "React";
+      		}
+      		else {
+      			result.innerHTML= '<img src="emoji/wow.gif">';
+      		}
+      		}
+      		function sad(){
+      		
+      			if(result.innerHTML=== '<img src="emoji/sad.gif">'){
+      		 result.innerHTML = "React";
+      		}
+      		else {
+      			result.innerHTML= '<img src="emoji/sad.gif">';
+      		}
+      		}
+      		function angry(){
+
+      				if(result.innerHTML=== '<img src="emoji/angry.gif">'){
+      		 result.innerHTML = "React";
+      		}
+      		else {
+      			result.innerHTML= '<img src="emoji/angry.gif">';
+      		}
+      		}
+
+      			
+      </script>	
+</body>
+</html>
