@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image:url("../Img/cclex.jpeg");
+    background:black;
     background-repeat:no-repeat;
     background-size:cover;
    
@@ -17,7 +17,7 @@ body{
 
 p{
     font-size: 25px;
-    color:white;
+    color:orange;
     
 }
 img{
@@ -39,3 +39,7 @@ img{
     padding-top:10px;
     padding:5px 30px;
 }
+h1{
+    color:white;
+}
+
