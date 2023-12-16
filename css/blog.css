@@ -58,3 +58,7 @@ img:hover{
 a:hover{
     color:brown;
 }
+
+h1 , h2 , p{
+color:orange;
+}
